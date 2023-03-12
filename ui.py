@@ -2,7 +2,7 @@ import os
 import openai
 import gradio as gr
 
-openai.api_key = "Your API key here"
+openai.api_key = "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"
 openai.organization = os.getenv("Org ID") 
 
 conversation=[{"role": "system", "content": "Here is our full conversation in case you need:"}]
